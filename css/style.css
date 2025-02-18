@@ -1,0 +1,348 @@
+#navbarcolor {
+    background-color: rgb(2, 26, 31);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.brandImage {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white;
+    padding: 0; 
+}
+
+.btn-outline-danger {
+    border: 0.5px solid yellow;
+    color: white;
+}
+
+.close-icon {
+    font-size: 1.2rem; 
+    color: white; 
+}
+
+.btn-outline-danger:hover {
+    background-color: rgb(210, 250, 33);
+    color: black;
+}
+
+.navbar-toggler {
+    border: none; 
+    outline: none; 
+    box-shadow: none; 
+}
+
+.navbar-toggler:focus {
+    outline: none; 
+    box-shadow: none; 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h28M4 15h28M4 23h28'/%3E%3C/svg%3E"); /* Change line color to white */
+}
+
+.list-unstyled {
+    margin-right: 50px;
+}
+
+.leftsidelist {
+    margin-left: 0px;
+}
+
+.footercolor {
+    background-color: rgb(10, 64, 73);
+}
+
+.text-muted {
+    color: white !important; /* Ensure the color is applied */
+}
+
+.closingbutton {
+    color: white;
+    font-size: 1.6rem; /* Adjust the size as needed */
+}
+
+.mathcauses{
+  box-shadow: 1px 1px 1px 1px #68747D;
+  background: #EDEDED;
+  border: 2px solid maroon;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.mathcauses:hover{
+  background: rgba(113, 154,115, 0.5);
+}
+
+.ball {
+	display: block;
+  border: 1px black;
+	width: 80px;
+	height: 80px;
+	margin: 10px auto 0;
+	border-radius: 50%;
+  font-size: 15px;
+}
+
+.bigball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px black;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto; /* Center the button horizontally */
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.b2 {
+  background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, black 60%, aqua 100%);
+}
+
+.b3 {
+  background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);
+}
+
+.b4 {
+  background: radial-gradient(circle at 65% 15%, white 0px, red 3%, maroon 40%, red 100%);
+}
+
+.b5 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#DE84FB 3%, #510769 40%, #C72EF8 100%);
+}
+.b6 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#DD84FA 10%, #710419 50%, #C72ED8 100%);
+}
+
+.b7 {
+  background: radial-gradient(circle at 75% 15%, #F6FA71 0px,#D8E473 3%, #5F8A7C 40%, #41747E 100%);
+}
+.b8 {
+  background: radial-gradient(circle at 65% 15%, orange 0px,red 20%, rgb(252, 48, 21) 50%, #3C0109 90%);
+}
+.b9 {
+  background: radial-gradient(circle at 65% 15%, white 1px,limegreen 3%, green 40%, darkgreen 100%);
+}
+.b10 {
+  background: radial-gradient(circle at 65% 15%, white 0px,	#E37611 17%, 	#A75F0D 40%, #8F2D09 100%);
+}
+.b11 {
+  background: radial-gradient(circle at 65% 25%, white 1px,#78BFD1 3%, #347A8C 40%, #03333F 100%);
+}
+.b12 {
+  background: radial-gradient(circle at 65% 15%, white 1px,yellow 3%, red 50%, purple 100%);
+}
+.b13 {
+  background: radial-gradient(circle at 55% 15%, rgb(134, 234, 241) 1px,rgb(48, 209, 238) 1%, rgb(3, 9, 92) 50%, rgb(24, 198, 241) 100%);
+}
+.b14 {
+  background: radial-gradient(circle at 55% 15%, rgb(223, 222, 172) 1px,rgb(84, 238, 217) 1%, rgb(0, 0, 0) 50%, rgb(1, 23, 29) 100%);
+}
+.b15{
+  background: radial-gradient(circle at 65% 15%, rgb(241, 241, 238) 1px,rgb(192, 192, 181) 1%, rgb(1, 3, 29) 50%, rgb(121, 111, 99) 100%);
+}
+.b16 {
+  background: radial-gradient(circle at 55% 25%, rgb(252, 252, 252) 1px,rgb(80, 248, 234) 0%, rgb(100, 104, 158) 50%, rgb(1, 38, 44) 100%);
+}
+.b17 {
+  background: radial-gradient(circle at 55% 25%, rgb(251, 255, 4) 1px,rgb(248, 224, 4) 3%, rgb(6, 27, 87) 60%, rgb(11, 96, 136) 100%);
+}
+.ball a{
+    color:white;
+    font-size: 18px;
+    font-style: bold;
+}
+.ball:hover{
+  box-shadow: 0 0 25px 5px rgba(217, 220, 236, 0.9);
+}
+
+.ball0{
+  display: block;
+  border: 0.01px solid black;
+  width: 180px;
+  height: 180px;
+  margin: 50px auto 0;
+  border-radius: 50%;
+  margin-top: 150px;
+  animation-name: rotate;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-position: center 0px;
+}
+
+.footerbackground{
+  background-color: rgb(2, 26, 31);
+  border-radius: 5px;
+  width: 100%;
+}
+
+body {
+    padding-top: 70px; /* Adjust this value based on the height of your navbar */
+}
+
+.Calculators {
+  text-align: center;
+}
+
+/*Calculators Style*/
+
+#equationbackground{
+  background-image: url('../data/backgroundimage.png'); /* Replace with your image URL */
+  background-size: cover;   /* Ensure the image covers the full page */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Parallax effect - the background is fixed when scrolling */
+  margin: 0;
+  padding: 25px;
+  height: 100%;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 2; /* Ensure content appears on top of the background */
+  color: white; /* Ensure text stands out against the background */
+  padding: 50px 20px; /* Add padding for spacing around the content */
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Optional: Add a dark overlay to improve text readability */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 1; /* Overlay sits between the background and the content */
+}
+
+
+label{
+  color: white;
+}
+
+.shining-border {
+width: 200px;
+padding: 3px;
+border: 2px solid transparent;
+border-radius: 5px;
+background: linear-gradient(white, white) padding-box,
+            linear-gradient(90deg, red, yellow, green, blue, red) border-box;
+animation: shine 3s linear infinite;
+outline: none;
+font-size: 16px;
+}
+
+@keyframes shine {
+0% {
+  background-position: 0% 50%;
+}
+100% {
+  background-position: 100% 50%;
+}
+}
+
+.position{
+  text-align: center;
+}
+
+.solovebutton {
+  width: 80px;
+  height: 32px;
+  background-color: rgb(4, 4, 87);
+  color: white;
+  border: 0.5px solid rgb(223, 223, 211);
+  border-radius: 5px;
+  margin-left: -90px;
+}
+.solovebutton1 {
+  width: 95px;
+  height: 32px;
+  background-color: rgb(4, 4, 87);
+  color: white;
+  border: 0.5px solid rgb(223, 223, 211);
+  border-radius: 5px;
+  margin-left: -90px;
+}
+
+
+
+#result{
+  color: white;
+  font-size: 18px;
+}
+
+input::placeholder {
+  font-size: 13px;
+  text-align: center;
+  color: rgb(136, 131, 131);
+}
+#result2{
+  color: white;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.form-message {
+  display: none;
+  margin-top: 15px;
+}
+
+.form-message.success {
+  color: green;
+}
+
+.form-message.error {
+  color: red;
+}
