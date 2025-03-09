@@ -377,6 +377,7 @@ input::placeholder {
   border: 5px solid #0a88f0;
   background-color: #0a88f0;
   box-shadow: 2px 2px 40px 2px rgb(5, 5, 5);
+  margin-right:15px;
 }
 .nav-item {
     transition: background-color 0.s ease, border-radius 0.3s ease, padding 0.3s ease;
