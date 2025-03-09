@@ -378,3 +378,12 @@ input::placeholder {
   background-color: #0a88f0;
   box-shadow: 2px 2px 40px 2px rgb(5, 5, 5);
 }
+.nav-item {
+    transition: background-color 0.s ease, border-radius 0.3s ease, padding 0.3s ease;
+}
+
+.nav-item:hover{
+  background-color: #0a88f0;
+  border-radius: 5px;
+  padding: 3px;
+}
